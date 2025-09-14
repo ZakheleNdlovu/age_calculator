@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Decorative corners -->
+        <div class="luxury-border">
+            <div class="corner corner-tl"></div>
+            <div class="corner corner-tr"></div>
+            <div class="corner corner-bl"></div>
+            <div class="corner corner-br"></div>
+        </div>
+
+        <div class="ornament ornament-1">✦</div>
+        <div class="ornament ornament-2">✦</div>
+
+        <header>
+            <div class="logo">
+                <h1>🧮</h1>
+            </div>
+            <h1>Age Calculator</h1>
+        </header>
+
+        <div class="calculator-box">
+            <div class="input-group">
+                <label for="birthdate"><i class="fas fa-calendar-alt"></i> Your Date of Birth</label>
+                <input type="date" id="birthdate" max="2023-12-31">
+            </div>
+
+            <button class="calculate-button" id="calculate-btn">
+                <i class="fas fa-gem"></i> Calculate My Age
+            </button>
+
+            <div class="result" id="result">
+                <h3>Your Age Is</h3>
+                <div class="result-value" id="result-value">0 years</div>
+                <div class="result-details">
+                    <div class="detail-item">
+                        <div class="detail-label">Years</div>
+                        <div class="detail-value" id="years">0</div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="detail-label">Months</div>
+                        <div class="detail-value" id="months">0</div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="detail-label">Days</div>
+                        <div class="detail-value" id="days">0</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>
